@@ -10,7 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Generate a Random Password</h1>
-    <script src="main.js"></script>
+    <div id="main">
+        <h1>Generate a <br><span class="color-green">Random Password</span></h1>
+        <div id="pass-field">
+            <input type="text" name="pass" id="input-box" placeholder="Password">
+            <img id="copy-img" class="img" src="images/copy.png" alt="">
+        </div>
+        <button id="genPass">Generate <img id="gen-img" src="images/generate.png" alt="" srcset=""></button>
+        <script src="main.js"></script>
+    </div>
 </body>
 </html>
